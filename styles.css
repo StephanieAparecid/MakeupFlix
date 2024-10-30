@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: mediumpurple;
+    margin: 2px;
+    font-family: "Pirata One", serif;
+    margin-bottom: 120px;
+}
+header{
+    border-bottom: solid 3px purple;
+    padding: 25px;
+    font-size: 35px;
+    color: mediumpurple;
+}
+.chamada{
+    background: #26023d;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 20%;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 25px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.categoria{
+    margin-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.categoria-videos img {
+opacity: 0.3;
+height: 150px;
+}
+.categoria-videos img:hover {
+opacity: 2.0;
+border: 3px solid blueviolet
+}
+.categoria h2{
+    color:blueviolet;
+}
